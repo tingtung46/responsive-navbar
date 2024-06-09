@@ -1,5 +1,5 @@
 {
-  "name": "responsive-navbar",
+  "name": "rspnsv-nvbr-dropdown-menu",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,10 +7,11 @@
     "start": "webpack serve --open",
     "build": "webpack"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["Responsive navbar", "responsive", "navbar"],
+  "author": "Rizma Ernawanti",
+  "license": "MIT",
+  "description": "Build a responsive navbar with dropdown menus blazingly fast.",
+  "git repository": "https://github.com/tingtung46/responsive-navbar.git",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "css-minimizer-webpack-plugin": "^7.0.0",
