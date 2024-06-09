@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+</head>
+<body>
+    <header class="nav-menu">
+        <div class="container">
+            <div class="nav-start">
+                <a href="/" class="logo">
+                    <img id="logo"
+                        width="35" 
+                        height="35" 
+                        alt="Inc Logo"
+                    />
+                </a>
+
+                <nav class="menu">
+                    <ul class="menu-bar">
+                        <li>
+                            <button 
+                             class="nav-link dropdown-btn"
+                             data-dropdown="dropdown1"
+                             aria-expanded="false">
+                                Browse
+                             <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                            </button>
+
+                            <div id="dropdown1" class="dropdown">
+                                <ul>
+                                    <li>
+                                        <a href="#best-of-the-day" class="dropdown-link">
+                                            <img class="icon" id="botd" alt="/">
+                                            <div>
+                                                <span class="dropdown-link-title">
+                                                    Best of The Day
+                                                </span>
+                                                <p>Short featured by curators</p>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#featured-streams" class="dropdown-link">
+                                            <img class="icon" id="fs" alt="/">
+                                            <div>
+                                                <span class="dropdown-link-title">
+                                                    Featured Streams
+                                                </span>
+                                                <p>Leading creatives livestream</p>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#subscription" class="dropdown-link">
+                                            <img class="icon" id="sp" alt="/">
+                                            <div>
+                                                <span class="dropdown-link-title">
+                                                    Subscription
+                                                </span>
+                                                <p>Gain exclusive access</p>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#creative-feed" class="dropdown-link">
+                                            <img class="icon" id="cf" alt="/">
+                                            <div>
+                                                <span class="dropdown-link-title">
+                                                    Creative Feed
+                                                </span>
+                                                <p>See trending creations</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <span id="apps" class="dropdown-link-title">Browse by apps</span>
+
+                                    <li>
+                                        <a href="#adobe-xd" class="dropdown-link">
+                                            <img id="xd" alt="/">
+                                            Adobe XD
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#after-effect" class="dropdown-link">
+                                            <img id="ae" alt="/">
+                                            After Effect
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#sketch" class="dropdown-link">
+                                            <img id="sketch" alt="/">
+                                            Sketch
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#indesign" class="dropdown-link">
+                                            <img id="indesign" alt="/">
+                                            Indesign
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#figma" class="dropdown-link">
+                                            <img id="figma" alt="/">
+                                            Figma
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <button 
+                             class="nav-link dropdown-btn"
+                             data-dropdown="dropdown2"
+                             aria-expanded="false">
+                                Discover
+                             <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                            </button>
+
+                            <div id="dropdown2" class="dropdown">
+                                <ul aria-labelledby="categories-title">
+                                    <span id="categories-title" class="dropdown-link-title">Browse Categories</span>
+
+                                    <li>
+                                        <a href="#branding" class="dropdown-link">Branding</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#illustrations" class="dropdown-link">Illustrations</a>
+                                    </li>
+                                </ul>
+
+                                <ul aria-labelledby="download-title">
+                                    <span id="download-title" class="dropdown-link-title">Download App</span>
+
+                                    <li>
+                                        <a href="#mac-windows" class="dropdown-link">MacOS & Windows</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#linux" class="dropdown-link">Linux</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                            
+                        <li>
+                            <button 
+                             class="nav-link dropdown-btn"
+                             data-dropdown="dropdown3"
+                             aria-expanded="false">
+                                Jobs
+                             <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                            </button>
+
+                            <div id="dropdown3" class="dropdown">
+                                <ul>
+                                    <span class="dropdown-link-title">Software</span>
+
+                                    <li>
+                                        <a href="#frontend" class="dropdown-link">Frontend</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#backend" class="dropdown-link">Backend</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#ai-ml" class="dropdown-link">AI/ML</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#mobile-dev" class="dropdown-link">Mobile Development</a>
+                                    </li>
+                                </ul>
+
+                                <ul aria-labelledby="download-title">
+                                    <span class="dropdown-link-title">Others</span>
+
+                                    <li>
+                                        <a href="#ui-ux" class="dropdown-link">UI/UX</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#writing" class="dropdown-link">Technical Writing</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="/" class="nav-link">Livestream</a></li>
+                        <li><a href="/" class="nav-link">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="nav-end">
+                <div class="right-container">
+                    <form class="search" role="search">
+                        <input type="search" name="search" placeholder="Search">
+                        <i class="bx bx-search search-icon" aria-hidden="true"></i>
+                    </form>
+
+                    <a href="#profile">
+                        <img id="user" 
+                            width="30" 
+                            height="30" 
+                            alt="user image" 
+                        />
+                    </a>
+
+                    <button class="btn btn-primary">Create</button>
+                </div>
+            </div>
+
+            <button id="hamburger" aria-expanded="false">
+                <i class="bx bx-menu" aria-hidden="true"></i>
+            </button>
+        </div>
+    </header>
+</body>
+</html>
